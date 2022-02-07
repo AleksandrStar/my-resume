@@ -3,27 +3,173 @@ body {
   background-color: #f5f7fa;
 }
 
-.mein-container {
+.main-container {
   display: flex;
   flex-direction: row-reverse;
   width: 1200px;
   background-color: #fff;
   margin: 40px auto;
+  box-shadow: 6px 6px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Main content setction */
+
+.main-content-section {
+  padding: 100px 90px;
+}
+
+.main-content-title {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+/* About-me setction */
+
+.about-me-section {
+  margin: 0 0 40px 0;
 }
 
 .about-me {
+  font-style: normal;
+  font-weight: bold;
   font-size: 14px;
-  font-weight: 700;
+  line-height: 17px;
+  color: #000;
+  margin: 0 0 20px 0;
+}
+
+.about-me-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000;
+  margin: 0 0 25px 0;
+}
+
+.about-me-description {
+  width: 400px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+/* My working setction */
+
+.my-works-section {
+  margin: 0 0 50px 0;
+}
+
+.my-works-list {
+  padding: 0 0 0 18px;
+}
+
+.my-works-item {
+  color: #000;
+  font-weight: bold;
+}
+
+.my-works-link {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-works-text {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  margin-left: 5px;
+}
+
+.my-works-bracket {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 24px;
   color: #000;
 }
 
-.about-me-section {
+/* My work experience setction */
+
+.my-work-experience-section {
+  margin-bottom: 45px;
 }
-.my-works-section {
+
+.my-work-experience-company {
+  color: #fb6d3a;
 }
-.my-works-experience-section {
+
+.my-work-experience-position {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0 0 10px 0;
 }
-.my-education-section {
+
+.my-work-experience-period {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 0 0 10px 0;
+}
+
+.my-work-experience-divider {
+  color: #000;
+}
+
+.my-work-experience-duties {
+  padding: 0 0 0 18px;
+}
+
+.my-work-experience-duty {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.my-work-experience-company-block {
+  margin: 0 15px 0 0;
+}
+
+/* Education setction */
+
+.my-education-header {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+}
+
+.my-education-university {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fb6d3a;
+}
+
+.my-education-faculty {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
 }
 
 /* Sidebar setction */
